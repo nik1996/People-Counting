@@ -1,4 +1,4 @@
-# Perform data preprocessing by extracting features and performing annotation.
+% Perform data preprocessing by extracting features and performing annotation.
 
 close all
 clear all
