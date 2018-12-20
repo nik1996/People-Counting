@@ -1,3 +1,6 @@
+# Fully connected 5-layer regress model. Layers size:[100,100,50,50,1]
+# First features are changed to 1000 dimensional array form and then model is compiled and trained.
+
 from keras.models import Sequential
 from keras.layers import Dense
 import scipy.io as sci
