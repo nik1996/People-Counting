@@ -1,3 +1,8 @@
+# Function to extract features from input image using resnet150 defined in MatConvNet toolkit.
+# Input image is divided into patches and features are extracted for each patch and added to 
+# feature array for that image. True count is also determined for given image by using data 
+# assembled from annotation.
+
 function [] = ExtractFeatures(imagesPath, groundPath, label)
 
 %% set images path and ground-truth path
