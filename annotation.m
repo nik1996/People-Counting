@@ -1,5 +1,7 @@
-%Generates ground truth .mat files for each image file using head
-%annotations
+% Annotation is performed by recording the coordinates of mouse
+% click (on head) for each image. Generates ground truth .mat files
+% for each image file using head annotations. True count is number 
+% of entries in .mat file.
 
 clear all
 clc
